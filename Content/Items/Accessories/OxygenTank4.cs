@@ -15,9 +15,5 @@ namespace SubnauticMod.Content.Items.Accessories {
 			rarity = ItemRarityID.Green;
 		}
 
-		public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.Subnautic().OxygenTank = true;
-		}
-
 	}
 }
